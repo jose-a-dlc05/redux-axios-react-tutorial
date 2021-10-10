@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Header from './components/Header';
-import ProductDetails from './components/ProductDetails';
-import ProductListing from './components/ProductListing';
+import Header from './components/Header.jsx';
+import ProductDetails from './components/ProductDetails.jsx';
+import ProductListing from './components/ProductListing.jsx';
 
 function App() {
 	return (
